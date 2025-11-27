@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulir Pendaftaran Sekolah</title>
+</head>
+<body>
+  <h2>Formulir Pendaftaran Sekolah</h2>
+  <form action="simpan_pendaftaran.php" method="post">
+    <label>Nama Lengkap:</label><br>
+    <input type="text" name="nama" required><br><br>
+
+    <label>Jenis Kelamin:</label><br>
+    <input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki
+    <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan<br><br>
+
+    <label>Tanggal Lahir:</label><br>
+    <input type="date" name="tanggal_lahir"><br><br>
+
+    <label>Alamat:</label><br>
+    <textarea name="alamat" rows="3"></textarea><br><br>
+
+    <label>Asal Sekolah:</label><br>
+    <input type="text" name="asal_sekolah"><br><br>
+
+    <input type="submit" value="Daftar">
+  </form>
+</body>
+</html>
